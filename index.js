@@ -15,10 +15,12 @@ require("./Models/User");
 require("./Models/EventSchema");
 
 require("./Services/Passport");
-app.get("/", (req,res) =>{
-    return res.send("Keith")
-})
+app.get("/", (req, res) => {
+  return res.send("Keith");
+});
 require("./Routes/TeamRoutes")(app);
 require("./Routes/Login")(app);
 require("./Routes/events")(app);
-app.listen(5000);
+
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log("Server Started"));
