@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
-const keys = require("./Config/keys");
+const keys = require("./Config/pro");
 const bodyParser = require("body-parser");
 const passport = require("passport");
 mongoose.Promise = global.Promise;
