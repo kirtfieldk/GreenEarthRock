@@ -1,7 +1,7 @@
 // WORKS
 const passport = require("passport");
 const GoogleStratagy = require("passport-google-oauth20").Strategy;
-const keys = require("../config/pro");
+const keys = require("../Config/pro");
 const mongoose = require("mongoose");
 const User = mongoose.model("user");
 
