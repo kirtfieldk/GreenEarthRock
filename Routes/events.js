@@ -5,7 +5,7 @@ module.exports = app => {
   app.get("/api/events", async (req, res) => {
     try {
       const response = await eventSchema.find({ display: "true" });
-      return res.status(200).json(response)
+      return res.status(200).json({response})
     } catch (err) {
       console.log(err);
       return res.status(404).json({ msg: err });
