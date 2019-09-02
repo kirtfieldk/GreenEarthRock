@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "earthgreenrock",
+  "private_key_id": "9de1fc83bfc87705a8be01b1967d95d7b3fab859",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDFe4gIMuI1siuI\nOq4lqzVy2CYJFavZ7vuCZ9ThPCha2y0Yp9IcNChdMN4iFS6e0MNDWndpUVtQmE9z\nd6jEY8nmnYme3O/FhgYOUM/ZzhySIhCXV6m6qbq6KGmcORKA/QsWI8wHFdj3lBVY\nsw+knK3io99hrGRJ+CDtG3EEKMvCz1a+xr/CtJqU0ploPO/TXs06UonFDjcyNyll\nJ5t4ome63A9mGFrrh1izEocgIiwTR5ExWlXtFSR/YmJzxgm2GHMKXqCBtcdA7WK+\nNw5x57iPc66vujeBfRlg+VRSmiBJ8sO4vyCUWxjhg+4tsiZGXSzihyOB4x22FtbI\nZhOnWpvtAgMBAAECggEAWsoHiIloIPqH8+nSXSQAfwtrNRr+9kLd4x58Ko5/GQIR\nkfe5a1j5Q5qvTOkDFWVxl7n0EvmhqwRS5olZD+y2iizb86qsGtmaWCOD4yTUUsSR\nbxqQv+2/GE1y/Czq2l07JxMO/iTnqi6sv6oWo32anYrsLBnWw4DtFkTa6OgegTEF\nFADPMkC12+Us60Un+Q1GzVzKHIk8A1N12L+Knd8rkdfHQ5cQN0+Yv4tVo/AjFftl\nScCUWmOt4zg3kNB3hNBnWesSDA4dCNED3XmfA2wEJIrhgeXl0yfahibesKB9LVAj\nNjexIDdTc6KiMcFieWjdoZijRkqwqaz1riGm8KB9WwKBgQDvLuQWAbLCPbKym+VW\nA59xIIL0j+jqp0YenBJBj+G1P7jRSkFgBG7jYOgTUy/6UCVXDVN44ZY6M0dumjlK\nOATY6h03mPggBgn2lZrnG/w89ciEpocU8IP4I2wrCQnrNK2iyunzP9crBXuuNvSl\n6qaYdvs+vuugAowb0dpCj+sbewKBgQDTXg/dFgEZxa22WuCQmobNko5aryItEhOt\nYlwaoHgfnb7vNtOc4TnXVTt/00T8UCGxm1EVySzCOliskAYRpgUfUjMThEVQeKVZ\nP9kzxSY6Z6lNkiH2HZdf0XmPkwp2kYkDMA51Z1/EFO8A5ONaIANHWxLKtzdYAc7N\ncUk5PtS1twKBgQCZM9XQ6sGPfWmK0iRxldx437RB5jPwqbhWPu3KpNiT+f7tv7xk\nPjKw3g+I4U3n7ZIdUmHXGdfZ66Kji5GKopsoPbz9MbQs/vE+ytDvm5NTkLMhlHEN\nzokZVcchQabiy1k03vg/YPL3kYmJK5ZE+CpBmmSP6kaOtVL9NsuwuvKDJQKBgQC9\nMppSlQrBLgBTlb8j0R5PTxtbsx6NZ3vznHLDZtZ/vm0VpWcAK17iEColPlCm5Xdz\nioqnTJ9i8GVFednk3E4Dfkm385Mz9/pSDGP5AkU4zGdwxxjdPBmurEv6p20bOySA\nlPisQK8pTm+txjR4DOXCbpRAnoXMojmiDgC0XDh8uwKBgQCwrqRMd6cHiEYkKxG8\nPmzptwYF1W9+O1mDf4Xq+fulPuFA730t4F5NC5219Uk0fz9tYWgJWycrniHoZ3/p\nwpvXUv9Ys2US54RucHjmnHdGKsxnzhaZeSfUHhw0y1E7XGZPquKUMddRKOVeMnq1\n2CEJ6lfDUXf4MyI7tD6VcqqSJg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-x6efd@earthgreenrock.iam.gserviceaccount.com",
+  "client_id": "104386730195984979603",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-x6efd%40earthgreenrock.iam.gserviceaccount.com"
+}

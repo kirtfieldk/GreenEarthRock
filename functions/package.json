@@ -1,0 +1,36 @@
+{
+  "name": "imgblock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirtfieldk/GreenEarthRock.git"
+  },
+  "author": "Keith Kirtfield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirtfieldk/GreenEarthRock/issues"
+  },
+  "homepage": "https://github.com/kirtfieldk/GreenEarthRock#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^6.4.0",
+    "firebase-admin": "^8.4.0",
+    "firebase-functions": "3.0.2",
+    "mongoose": "^5.6.9",
+    "multer": "^1.4.2",
+    "nodemon": "^1.19.1",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
