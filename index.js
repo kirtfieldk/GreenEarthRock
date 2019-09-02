@@ -1,11 +1,18 @@
 const express = require("express");
 const app = express();
+const firebase = require("firebase");
 const mongoose = require("mongoose");
 const keys = require("./Config/pro");
 const bodyParser = require("body-parser");
+const functions = require("firebase-functions");
 const passport = require("passport");
+const firebaseConfig = require("./Config/FrebaseConfig");
 mongoose.Promise = global.Promise;
 mongoose.connect(keys.mongoKey);
+
+// Init app
+firebase.initializeApp(firebaseConfig);
+
 app.use(bodyParser.json());
 app.use(passport.initialize());
 app.use(passport.session());
@@ -22,5 +29,4 @@ require("./Routes/TeamRoutes")(app);
 require("./Routes/Login")(app);
 require("./Routes/events")(app);
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log("Server Started"));
+exports.api = functions.https.onRequest(app);
